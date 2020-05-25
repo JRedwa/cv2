@@ -1,0 +1,260 @@
+
+
+body {
+  text-align: center;
+  /* line-height: 2; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2rem;
+  color: black;
+}
+
+h1 {
+  padding-top: 10%;
+  font-family: 'Ruthie', cursive;
+  font-size: 6rem;
+  letter-spacing: 12px;
+  color: white;
+}
+
+h2 {
+  padding: 5% 0 5% 0;
+  font-size: 3rem;
+  text-shadow: 0 0 15px #00aced;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), red, rgba(0, 0, 0, 0));
+}
+
+
+#header {
+  background-image: url("../images/header-bg.jpg");
+  background-size: 100% 100%;
+  padding-top: 0;
+  padding-bottom: 400px;
+  color: white;
+}
+
+#about {
+  background-color: #deecff;
+  background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
+}
+
+#resume {
+  background-color: #c6cfff;
+  background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
+  line-height: 1.2;
+
+}
+
+#contacts {
+  background-image: url("../images/header-bg2.jpg");
+  min-height: 800px;
+}
+
+#footer {
+  background-color: #7e80ff;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+  padding-top: 20px;
+}
+
+#input-message {
+  min-height: 210px;
+}
+
+.pos-rel {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.container-fluid {
+  padding: 0 20%;
+}
+
+.left-text {
+  text-align: left;
+}
+
+/* menu animation */
+.hide-menu {
+    background-color: #edb1f1;
+    background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
+    opacity: .8;
+    transition: 1500ms linear;
+}
+
+/* navigation section */
+.navbar{
+  padding: 0;
+}
+
+.navbar-light .nav-item .nav-link {
+  color: #2b0640;
+  margin: 0 50px 0 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  margin-left: 13rem;
+}
+
+.mr-auto{
+  margin-left: 20%;
+}
+
+/* about section */
+@media (min-width: 575px) {
+  .right-img {
+    position: absolute;
+    right: 0;
+    }
+}
+
+.skill-text {
+  margin-bottom: 2rem;
+}
+
+/* carousel section. not done due no projects. add later*/
+/* .carousel-item {
+  width: 100%;
+  height: 600px;
+  background-color: yellow;
+} */
+
+/* contacts section */
+
+.my-img {
+  border: 1px solid black;
+  border-radius: 30%;
+  box-shadow: 5px 5px 5px black;
+  position: relative;
+  margin-bottom: -50px;
+  top: -80px;
+  width: 165px;
+}
+
+.text {
+  position: relative;
+  margin: 1% 5%;
+}
+
+.small-div {
+  margin-top: 35px;
+}
+
+/* Add a background color and some padding around the form */
+.container-mirror {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px black;
+  color: white;
+  padding: 20px;
+  background-color:rgba(254, 110, 62,  0.8);
+  /* 182, 2, 2, */
+  background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
+}
+
+p, .container-mirror {
+  margin-bottom: 0;
+}
+
+.right-button {
+  position: absolute;
+  right: 10px;
+  z-index: 1;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 10px;
+}
+
+.btn-success.btn.btn-lg {
+  background-color: #4dc247;
+  border: 3px solid #4dc247;
+  border-radius: 10px;
+}
+.btn-success.btn.btn-lg:hover {
+  background-color: #1e7e34;
+}
+
+.msg {
+  height: 40px;
+}
+
+/* .text:hover {
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+} */
+
+.wrapper {
+  border-radius: 50%;
+  border: 5px solid #D8E2DC;
+  color: #D8E2DC;
+  width: 65px;
+  height: 65px;
+  line-height: 70px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  margin: 0 auto;
+}
+
+
+/*  icon color */
+.fb-icon .wrapper {
+  color: #3b5998;
+  border: 5px solid #3b5998;
+}
+
+.linkedIn-icon .wrapper {
+  color: #00aced;
+  border: 5px solid #00aced;
+}
+
+.gmail-icon .wrapper {
+  color: #dd4b39;
+  border: 5px solid #dd4b39;
+}
+
+.phone-icon .wrapper {
+  color: #4dc247;
+  border: 5px solid #4dc247;
+}
+
+
+/* hoover color */
+.fb-icon:hover {
+  border: 3px solid #3b5998;
+  box-shadow: 0 0 15px #3b5998;
+  color: #3b5998;
+  text-shadow: 0 0 15px #3b5998;
+  transition: all 0.5s ease;
+}
+
+
+.linkedIn-icon:hover {
+  border: 3px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+
+}
+
+.gmail-icon:hover {
+  border: 3px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+
+.phone-icon:hover {
+  border: 3px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  color: #4dc247;
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
