@@ -6,10 +6,10 @@ body {
   font-size: 1.2rem;
   color: black;
 
-  background-color: #ddffd6;
-  background-image: url("https://www.transparenttextures.com/patterns/large-leather.png");
-  /* background-image: url("https://www.transparenttextures.com/patterns/old-map.png"); */
-  /* background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png"); */
+  background-color: #ffeada;
+  /* background-image: url("https://www.transparenttextures.com/patterns/large-leather.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/rocky-wall.png");
+
 }
 
 h1 {
@@ -76,9 +76,10 @@ hr{
 
 /* menu animation */
 .hide-menu {
-    background-color: #edb1f1;
+    /* background-color: #edb1f1; */
+    background-color: #b2bcff;
     background-image: url("https://www.transparenttextures.com/patterns/low-contrast-linen.png");
-    opacity: .8;
+    opacity: .9;
     transition: 1500ms linear;
 }
 
@@ -137,7 +138,7 @@ hr{
   background-color:rgba(222, 236, 255, 0.8);
   position: relative;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 25px;
   box-shadow: 5px 5px 5px black;
 }
 
